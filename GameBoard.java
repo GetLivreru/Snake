@@ -17,4 +17,10 @@ public class GameBoard extends JPanel {
             }
         }
     }
+    @Override
+    protected void paintComponent(Graphics g) {
+        super.paintComponent(g);
+
+        // Ваш код для отображения матрицы или другой графики
+    }
 }
